@@ -1,0 +1,985 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32583 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/HoneyXP/Documents/GitHub/McKevin/McKevin
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+53520
+Successfully changed project path to: C:/Users/HoneyXP/Documents/GitHub/McKevin/McKevin
+C:/Users/HoneyXP/Documents/GitHub/McKevin/McKevin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [66064] Host "[IP] 10.0.0.79 [Port] 0 [Flags] 2 [Guid] 403814192 [EditorId] 403814192 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [66064] Host "[IP] 10.0.0.79 [Port] 0 [Flags] 2 [Guid] 403814192 [EditorId] 403814192 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 9.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HoneyXP/Documents/GitHub/McKevin/McKevin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 Super (ID=0x1e91)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.2892
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006956 seconds.
+- Loaded All Assemblies, in  0.321 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.278 seconds
+Domain Reload Profiling: 598ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.690 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (247ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (537ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 3708.
+Memory consumption went from 132.0 MB to 130.7 MB.
+Total: 2.799100 ms (FindLiveObjects: 0.242400 ms CreateObjectMapping: 0.228300 ms MarkObjects: 2.078400 ms  DeleteObjects: 0.249300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 474435.784523 seconds.
+  path: Assets/Prefabs/catbasic Variant.prefab
+  artifactKey: Guid(1689f2ca16aaa34439fe2ce2de8bd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/catbasic Variant.prefab using Guid(1689f2ca16aaa34439fe2ce2de8bd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6805adc1f6afb670afe0201496b9fe14') in 0.134265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 6.873751 seconds.
+  path: Assets/Prefabs/catbasic Variant.prefab
+  artifactKey: Guid(1689f2ca16aaa34439fe2ce2de8bd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/catbasic Variant.prefab using Guid(1689f2ca16aaa34439fe2ce2de8bd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f13af4f0c828e504af5edba203d142') in 0.076035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.816 seconds
+Refreshing native plugins compatible for Editor in 5.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1639ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (298ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.0 MB). Loaded Objects now: 3922.
+Memory consumption went from 138.5 MB to 136.5 MB.
+Total: 3.313700 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.257700 ms MarkObjects: 2.062400 ms  DeleteObjects: 0.692100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1616ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (542ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (302ms)
+				TypeCache.ScanAssembly (288ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (2.0 MB). Loaded Objects now: 3925.
+Memory consumption went from 138.9 MB to 136.9 MB.
+Total: 4.493200 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.280400 ms MarkObjects: 3.306300 ms  DeleteObjects: 0.565600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.932 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.019 seconds
+Domain Reload Profiling: 1947ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (350ms)
+				TypeCache.ScanAssembly (339ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (8.7 MB). Loaded Objects now: 5756.
+Memory consumption went from 204.3 MB to 195.6 MB.
+Total: 15.312800 ms (FindLiveObjects: 0.676500 ms CreateObjectMapping: 0.805700 ms MarkObjects: 6.360900 ms  DeleteObjects: 7.468000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 460.698259 seconds.
+  path: Assets/Prefabs/Bacon C.prefab
+  artifactKey: Guid(c54933e40bcce424ea7d137401aeccc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bacon C.prefab using Guid(c54933e40bcce424ea7d137401aeccc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76513dff5a358c0d2d783e116ea3d17') in 0.076253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Burger Bread D.prefab
+  artifactKey: Guid(ed47c737dcadbbf4c99e6c731f3d7fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Burger Bread D.prefab using Guid(ed47c737dcadbbf4c99e6c731f3d7fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e1d39274024d97b76898c4886552a4') in 0.047333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Tomato D.prefab
+  artifactKey: Guid(462ff0e3606f18442b44d2576eb4cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tomato D.prefab using Guid(462ff0e3606f18442b44d2576eb4cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7662c98f0e6f90bf618570cebf9375') in 0.014498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Burger Bread D 1.prefab
+  artifactKey: Guid(61e2fdf1ceb01f24691491b7903ae95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Burger Bread D 1.prefab using Guid(61e2fdf1ceb01f24691491b7903ae95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94df7548734daefca82713f8394e719') in 0.012154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/catbasic2 Variant.prefab
+  artifactKey: Guid(4a487c4961ac6f44fb958159c52bcacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/catbasic2 Variant.prefab using Guid(4a487c4961ac6f44fb958159c52bcacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd1d90fe6a4f0fc16821577edee1dce') in 0.000588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Tomato C.prefab
+  artifactKey: Guid(a97c4d86e43016947993b720aca0458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tomato C.prefab using Guid(a97c4d86e43016947993b720aca0458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4594ef252ae1bca906bcdeb0c41b7b') in 0.012264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Patty.prefab
+  artifactKey: Guid(2ab305cef4151a746be1c491c2fb00b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Patty.prefab using Guid(2ab305cef4151a746be1c491c2fb00b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38e225225054ebb31d68d3cc100776d') in 0.017345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Patty Girllable.prefab
+  artifactKey: Guid(1e9631665266446409850fc3f0dada4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Patty Girllable.prefab using Guid(1e9631665266446409850fc3f0dada4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0160e86645d413e8135c4d4f0e49093b') in 0.013918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Cheese D.prefab
+  artifactKey: Guid(632e43d5c3ab8824892743564dbb7768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cheese D.prefab using Guid(632e43d5c3ab8824892743564dbb7768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0933e37a2c51f8a0884e9e66f38bce0') in 0.013486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.893 seconds
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.260 seconds
+Domain Reload Profiling: 2150ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (642ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (331ms)
+				TypeCache.ScanAssembly (317ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1260ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (547ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 272 unused Assets / (8.8 MB). Loaded Objects now: 5634.
+Memory consumption went from 201.2 MB to 192.5 MB.
+Total: 10.762500 ms (FindLiveObjects: 0.614700 ms CreateObjectMapping: 0.988800 ms MarkObjects: 3.946000 ms  DeleteObjects: 5.211500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'FbxUseCaseTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/UseCaseTests/FbxUseCaseTests.asmdef)
+Assembly with name 'FbxUseCaseTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/UseCaseTests/FbxUseCaseTests.asmdef)
+Assembly with name 'FbxBuildTestAssets' already exists (Packages/com.autodesk.fbx/Tests/Runtime/BuildTestsAssets/FbxBuildTestAssets.asmdef)
+Assembly with name 'FbxBuildTestAssets' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Runtime/BuildTestsAssets/FbxBuildTestAssets.asmdef)
+Assembly with name 'PlayModeTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/PlayModeTests/PlayModeTests.asmdef)
+Assembly with name 'PlayModeTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/PlayModeTests/PlayModeTests.asmdef)
+Assembly with name 'FbxUnitTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/UnitTests/FbxUnitTests.asmdef)
+Assembly with name 'FbxUnitTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/UnitTests/FbxUnitTests.asmdef)
+Assembly with name 'FbxBuildTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/BuildTests/FbxBuildTest.asmdef)
+Assembly with name 'FbxBuildTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/BuildTests/FbxBuildTest.asmdef)
+Assembly with name 'Autodesk.Fbx' already exists (Packages/com.autodesk.fbx/Runtime/Autodesk.Fbx.asmdef)
+Assembly with name 'Autodesk.Fbx' already exists (Assets/com.autodesk.fbx@4.2.1/Runtime/Autodesk.Fbx.asmdef)
+Assembly with name 'Autodesk.Fbx.Editor' already exists (Packages/com.autodesk.fbx/Editor/Autodesk.Fbx.Editor.asmdef)
+Assembly with name 'Autodesk.Fbx.Editor' already exists (Assets/com.autodesk.fbx@4.2.1/Editor/Autodesk.Fbx.Editor.asmdef)
+Assembly with name 'FbxLinuxTest' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/LinuxTests/LinuxTest.asmdef)
+Assembly with name 'FbxLinuxTest' already exists (Packages/com.autodesk.fbx/Tests/Editor/LinuxTests/LinuxTest.asmdef)
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfacePhong.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxImporter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxExporter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNull.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintRotation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElement.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTimeSpan.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyDouble3.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxFileTexture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyELightType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAxisSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEBlendMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDocument.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSystemUnit.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNodeAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyString.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxVector4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAMatrix.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSharpProgressCallback.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimStack.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArray.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveKey.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOPluginRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintScale.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEProjectionType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEAreaLightShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementBinormal.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxVector4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEDecayType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOFileHeaderInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveFilterUnroll.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxProperty.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTangent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBlendShapeChannel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLight.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSemanticEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLimits.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDouble4x4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/NativeMethods.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyBool.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEmitter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyMarkerELook.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMarker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEInheritType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxQuaternion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/Globals.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintPosition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTransform.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyFlags.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxObject.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGeometryBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateInt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCluster.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDoubleTemplates.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementNormal.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementVertexColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTexture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxImplementation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfaceLambert.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMesh.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSkeleton.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyInt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyFloat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEWrapMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSubDeformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMatrix.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDeformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTableBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTime.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGlobalSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTableEntry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyNullELook.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBlendShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGeometry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxVector2.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCamera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyDouble.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDataType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSkin.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEuler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDocumentInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEGateFit.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/EFbxType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintParent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Tests/Runtime/BuildTestsAssets/ExportEmptyFbx.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveDef.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxVector2.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintAim.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimLayer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConnection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementUV.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNurbsCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCollection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxScene.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/EFbxMemoryClearMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Assembly with name 'FbxUseCaseTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/UseCaseTests/FbxUseCaseTests.asmdef)
+Assembly with name 'FbxUseCaseTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/UseCaseTests/FbxUseCaseTests.asmdef)
+Assembly with name 'FbxBuildTestAssets' already exists (Packages/com.autodesk.fbx/Tests/Runtime/BuildTestsAssets/FbxBuildTestAssets.asmdef)
+Assembly with name 'FbxBuildTestAssets' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Runtime/BuildTestsAssets/FbxBuildTestAssets.asmdef)
+Assembly with name 'PlayModeTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/PlayModeTests/PlayModeTests.asmdef)
+Assembly with name 'PlayModeTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/PlayModeTests/PlayModeTests.asmdef)
+Assembly with name 'FbxUnitTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/UnitTests/FbxUnitTests.asmdef)
+Assembly with name 'FbxUnitTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/UnitTests/FbxUnitTests.asmdef)
+Assembly with name 'FbxBuildTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/BuildTests/FbxBuildTest.asmdef)
+Assembly with name 'FbxBuildTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/BuildTests/FbxBuildTest.asmdef)
+Assembly with name 'Autodesk.Fbx' already exists (Packages/com.autodesk.fbx/Runtime/Autodesk.Fbx.asmdef)
+Assembly with name 'Autodesk.Fbx' already exists (Assets/com.autodesk.fbx@4.2.1/Runtime/Autodesk.Fbx.asmdef)
+Assembly with name 'Autodesk.Fbx.Editor' already exists (Packages/com.autodesk.fbx/Editor/Autodesk.Fbx.Editor.asmdef)
+Assembly with name 'Autodesk.Fbx.Editor' already exists (Assets/com.autodesk.fbx@4.2.1/Editor/Autodesk.Fbx.Editor.asmdef)
+Assembly with name 'FbxLinuxTest' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/LinuxTests/LinuxTest.asmdef)
+Assembly with name 'FbxLinuxTest' already exists (Packages/com.autodesk.fbx/Tests/Editor/LinuxTests/LinuxTest.asmdef)
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfacePhong.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxImporter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxExporter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNull.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintRotation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElement.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTimeSpan.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyDouble3.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxFileTexture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyELightType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAxisSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEBlendMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDocument.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSystemUnit.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNodeAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyString.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxVector4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAMatrix.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSharpProgressCallback.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimStack.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArray.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveKey.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOPluginRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintScale.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEProjectionType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEAreaLightShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementBinormal.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxVector4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEDecayType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOFileHeaderInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveFilterUnroll.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxProperty.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTangent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBlendShapeChannel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLight.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSemanticEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLimits.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDouble4x4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/NativeMethods.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyBool.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEmitter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyMarkerELook.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMarker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEInheritType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxQuaternion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/Globals.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintPosition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTransform.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyFlags.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxObject.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGeometryBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateInt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCluster.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDoubleTemplates.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementNormal.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementVertexColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTexture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxImplementation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfaceLambert.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMesh.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSkeleton.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyInt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyFloat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEWrapMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSubDeformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMatrix.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDeformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTableBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTime.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGlobalSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTableEntry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyNullELook.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBlendShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGeometry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxVector2.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCamera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyDouble.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDataType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSkin.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEuler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDocumentInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEGateFit.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/EFbxType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintParent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Tests/Runtime/BuildTestsAssets/ExportEmptyFbx.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveDef.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxVector2.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintAim.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimLayer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConnection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementUV.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNurbsCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCollection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxScene.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/EFbxMemoryClearMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HoneyXP\Documents\GitHub\McKevin\McKevin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.952 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'FbxUseCaseTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/UseCaseTests/FbxUseCaseTests.asmdef)
+Assembly with name 'FbxUseCaseTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/UseCaseTests/FbxUseCaseTests.asmdef)
+Assembly with name 'FbxBuildTestAssets' already exists (Packages/com.autodesk.fbx/Tests/Runtime/BuildTestsAssets/FbxBuildTestAssets.asmdef)
+Assembly with name 'FbxBuildTestAssets' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Runtime/BuildTestsAssets/FbxBuildTestAssets.asmdef)
+Assembly with name 'PlayModeTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/PlayModeTests/PlayModeTests.asmdef)
+Assembly with name 'PlayModeTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/PlayModeTests/PlayModeTests.asmdef)
+Assembly with name 'FbxUnitTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/UnitTests/FbxUnitTests.asmdef)
+Assembly with name 'FbxUnitTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/UnitTests/FbxUnitTests.asmdef)
+Assembly with name 'FbxBuildTests' already exists (Packages/com.autodesk.fbx/Tests/Editor/BuildTests/FbxBuildTest.asmdef)
+Assembly with name 'FbxBuildTests' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/BuildTests/FbxBuildTest.asmdef)
+Assembly with name 'Autodesk.Fbx' already exists (Packages/com.autodesk.fbx/Runtime/Autodesk.Fbx.asmdef)
+Assembly with name 'Autodesk.Fbx' already exists (Assets/com.autodesk.fbx@4.2.1/Runtime/Autodesk.Fbx.asmdef)
+Assembly with name 'Autodesk.Fbx.Editor' already exists (Packages/com.autodesk.fbx/Editor/Autodesk.Fbx.Editor.asmdef)
+Assembly with name 'Autodesk.Fbx.Editor' already exists (Assets/com.autodesk.fbx@4.2.1/Editor/Autodesk.Fbx.Editor.asmdef)
+Assembly with name 'FbxLinuxTest' already exists (Assets/com.autodesk.fbx@4.2.1/Tests/Editor/LinuxTests/LinuxTest.asmdef)
+Assembly with name 'FbxLinuxTest' already exists (Packages/com.autodesk.fbx/Tests/Editor/LinuxTests/LinuxTest.asmdef)
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfacePhong.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxImporter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxExporter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNull.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintRotation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElement.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTimeSpan.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyDouble3.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxFileTexture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyELightType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAxisSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxStatus.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEBlendMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDocument.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSystemUnit.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNodeAttribute.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyString.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxVector4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAMatrix.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSharpProgressCallback.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimStack.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArray.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveKey.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOPluginRegistry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintScale.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEProjectionType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEAreaLightShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementBinormal.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxVector4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEDecayType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOFileHeaderInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveFilterUnroll.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxProperty.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTangent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBlendShapeChannel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxSurfaceMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLight.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSemanticEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLimits.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDouble4x4.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxIOSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEntryView.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/NativeMethods.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyBool.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEmitter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyMarkerELook.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMarker.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEInheritType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxQuaternion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/Globals.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintPosition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTransform.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyFlags.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxObject.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGeometryBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateInt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCluster.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDoubleTemplates.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementNormal.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementVertexColor.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTable.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTexture.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxImplementation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSurfaceLambert.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMesh.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSkeleton.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyInt.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyFloat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEWrapMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSubDeformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxMatrix.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDeformer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerContainer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTableBase.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxTime.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGlobalSettings.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBindingTableEntry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyNullELook.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxBlendShape.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxGeometry.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementTemplateFbxVector2.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCamera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyDouble.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDataType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxSkin.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxEuler.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxDocumentInfo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxPropertyEGateFit.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/EFbxType.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintParent.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Tests/Runtime/BuildTestsAssets/ExportEmptyFbx.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveDef.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementArrayTemplateFbxVector2.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConstraintAim.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimLayer.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxConnection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementUV.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxNurbsCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxLayerElementMaterial.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxCollection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxScene.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/EFbxMemoryClearMode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.autodesk.fbx/Runtime/Scripts/FbxAnimCurveNode.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.364 seconds
+Domain Reload Profiling: 2309ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (686ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (354ms)
+				TypeCache.ScanAssembly (336ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 150 unused Assets / (8.7 MB). Loaded Objects now: 5762.
+Memory consumption went from 206.1 MB to 197.4 MB.
+Total: 11.494300 ms (FindLiveObjects: 0.790000 ms CreateObjectMapping: 0.637700 ms MarkObjects: 4.528500 ms  DeleteObjects: 5.536400 ms)
+
+Prepare: number of updated asset objects reloaded= 98
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

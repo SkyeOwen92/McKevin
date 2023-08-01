@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &417436961608378405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8750164111097763530}
+  - component: {fileID: 4364625860462326267}
+  - component: {fileID: 1119781006043922137}
+  - component: {fileID: 6404981971604925624}
+  - component: {fileID: 1115790330932661509}
+  - component: {fileID: 360312358437641364}
+  - component: {fileID: 7398470851166567005}
+  m_Layer: 0
+  m_Name: Bacon
+  m_TagString: drag
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8750164111097763530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417436961608378405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4028744082342149715}
+  - {fileID: 8662751335255406769}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4364625860462326267
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417436961608378405}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.03532614, z: 0.7}
+  m_Center: {x: 0, y: 0.0057749897, z: 0}
+--- !u!114 &1119781006043922137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417436961608378405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95b0d182c464924fb22170b1d51f124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6404981971604925624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417436961608378405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1832a1662d99742b0f069c26df257b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plates: []
+  foodItems: []
+  plateRange: 2
+--- !u!114 &1115790330932661509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417436961608378405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449d6ed586f0bbb4488160e90e8e5fee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FoodName: Bacon
+  placement: 4
+  cost: 1
+  value: 10000
+  startPoint: {fileID: 8750164111097763530}
+--- !u!114 &360312358437641364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417436961608378405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ec5d41a82f26743a4b04ca0bf9b628, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newFood: {fileID: 8750164111097763530}
+  Parent: {fileID: 8750164111097763530}
+--- !u!54 &7398470851166567005
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417436961608378405}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 0
+--- !u!1001 &904425619493910297
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8750164111097763530}
+    m_Modifications:
+    - target: {fileID: -6543968807502371358, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6543968807502371358, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.134
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223016425213547794, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_Name
+      value: Bacon Slice (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+--- !u!4 &8662751335255406769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+  m_PrefabInstance: {fileID: 904425619493910297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4854200195245142523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8750164111097763530}
+    m_Modifications:
+    - target: {fileID: -6543968807502371358, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6543968807502371358, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.137
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223016425213547794, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+      propertyPath: m_Name
+      value: Bacon Slice
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+--- !u!4 &4028744082342149715 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8409746893478956968, guid: 631ba866b6de423abf335d1c6c171d90, type: 3}
+  m_PrefabInstance: {fileID: 4854200195245142523}
+  m_PrefabAsset: {fileID: 0}
