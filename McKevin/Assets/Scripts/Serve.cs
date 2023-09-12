@@ -9,7 +9,11 @@ public class Serve : MonoBehaviour
     public GameObject Plate;
     public int OrderIndex; 
     public static bool CorrectOrder = false;
+    public AudioSource passSound; 
     Vector3 pos;
+    
+
+    //when the button is pressed 
     private void OnMouseDown()
     {
         pos = transform.localPosition;
@@ -29,6 +33,7 @@ public class Serve : MonoBehaviour
     IEnumerator plateReset()
     {
         float time = .5f; //time so the cat can leave after having the food 
+        passSound.Play();
         yield return new WaitForSeconds(1);
         foreach (FoodItem item in Plate.GetComponent<BuildBurger>().myBurger) // get rid of burgers 
         {

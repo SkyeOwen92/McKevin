@@ -11,6 +11,7 @@ public class Grillable : MonoBehaviour
     private MeshRenderer meatColor;
     private string stillCooking = "n";
     ParticleSystem fire;
+    AudioSource fireSound; 
 
     public void Start()
     {
@@ -31,6 +32,7 @@ public class Grillable : MonoBehaviour
             meatColor.material.color = new Color(.3f, .3f, .3f);
             stillCooking = "n"; 
             fire.Stop();
+            fireSound.Stop(); 
             gameObject.GetComponent<Plateable>().enabled = true;
             gameObject.GetComponent<Grillable>().enabled = false;
         }
@@ -57,7 +59,9 @@ public class Grillable : MonoBehaviour
             stillCooking = "y";
             StartCoroutine(CookTimer()); //this allows this IEnumerator to run at the same time as the rest of the code happens.
             fire = closestBurner.GetComponentInChildren<ParticleSystem>();
+            fireSound = closestBurner.GetComponent<AudioSource>(); 
             fire.Play();
+            fireSound.Play();
         }
         else
         {
