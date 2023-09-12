@@ -9,8 +9,4 @@ public class FoodItem : MonoBehaviour
     public int placement;
     public int cost;
     public int value;
-
-    private void Start()
-    {
-    }
 }

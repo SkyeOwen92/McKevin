@@ -8,12 +8,14 @@ using UnityEngine;
 public class BuildBurger : MonoBehaviour
 {
     public List<FoodItem> myBurger;
-    public int burgerValue;
+    public int burgerValue; // this is used for comparing burger on plate to the order 
+    public int burgerPrice; // this is used for the cost of the burger 
     // Start is called before the first frame update
     void Awake()
     {
         myBurger.Clear();
         burgerValue = 0; 
+        burgerPrice = 0;
     }
 
     // Update is called once per frame

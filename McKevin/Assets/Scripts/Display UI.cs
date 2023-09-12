@@ -18,6 +18,6 @@ public class DisplayUI : MonoBehaviour
         txtQue.text = "Customers: " + Orders.qLen;
         currentTime = GameTime - Time.time;
         txtTime.text = currentTime.ToString();
-        //txtCash.text = Orders.cash.ToString(); 
+        txtCash.text = Orders.cash.ToString(); 
     }
 }

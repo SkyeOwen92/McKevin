@@ -66,9 +66,9 @@ public class Orders : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;    
-        if ( timer > 4)
+        if ( timer > 7)
         {
-            StartCoroutine(CallNextCustomer()); // after 4 seconds we will call the next customer if there is an open seat.
+            StartCoroutine(CallNextCustomer()); // after 7 seconds we will call the next customer if there is an open seat.
             timer = 0;
         }
     }
